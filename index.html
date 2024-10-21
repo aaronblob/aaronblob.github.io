@@ -17,9 +17,21 @@
             color: #333;
             font-size: 24px;
             margin: 0 10px;
+            text-decoration: none;
         }
         .social-icons a:hover {
             color: #007bff;
+        }
+        .intro-text {
+            font-size: 18px;
+            color: #333;
+        }
+        .intro-text a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .intro-text a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -27,27 +39,37 @@
     <div class="container text-center mt-5">
         <!-- Profile Image Section -->
         <div class="profile-image">
-            <img src="lob.jpg" alt="Your Picture" class="rounded-circle">
+            <img src="your-image.jpg" alt="Your Picture" class="rounded-circle">
+        </div>
+
+        <!-- Introduction Text Section -->
+        <div class="mt-4">
+            <p><strong>Hi, I'm Aaron</strong></p>
+            <p class="intro-text">
+                I am a PhD student at <a href="https://cbdr-lab.net" target="_blank">CBDR</a> at the University of Zurich, and interested in understanding and modeling decisions under risk and uncertainty both in the lab and the real world.
+            </p>
         </div>
 
         <!-- Social Icons Section -->
         <div class="social-icons mt-4">
-            <a href="https://scholar.google.com/citations?user=Zhjq37YAAAAJ" target="_blank" class="mx-2">
+            <a href="https://scholar.google.com/citations?user=Zhjq37YAAAAJ" target="_blank">
+                
                 <i class="fas fa-graduation-cap"></i>
             </a>
-            <a href="https://mstdn.science/@aaronlob" target="_blank" class="mx-2">
+            <a href="https://mstdn.science/@aaronlob" target="_blank">
                 <i class="fab fa-mastodon"></i>
             </a>
-            <a href="https://bsky.app/profile/aaronlob.bsky.social" target="_blank" class="mx-2">
+            <a href="https://bsky.app/profile/aaronlob.bsky.social" target="_blank">
                 <i class="fas fa-satellite-dish"></i>
             </a>
-            <a href="https://x.com/AaronBLob/" target="_blank" class="mx-2">
+            <a href="https://x.com/AaronBLob/" target="_blank">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://orcid.org/0000-0003-0459-7986" target="_blank" class="mx-2">
+            <a href="https://orcid.org/0000-0003-0459-7986" target="_blank">
                 <i class="fas fa-id-card"></i>
             </a>
         </div>
     </div>
 </body>
 </html>
+
